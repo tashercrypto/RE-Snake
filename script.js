@@ -330,7 +330,6 @@ function gameOver() {
     if (twiterLink) {
         try {
         
-            gameOverMessage.appendChild(twiterLink);
            
             twiterLink.style.display = 'block';
             twiterLink.style.opacity = '0';
